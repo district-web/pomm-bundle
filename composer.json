@@ -1,5 +1,5 @@
 {
-  "name": "pomm-project/pomm-bundle",
+  "name": "district-web/pomm-bundle",
   "type": "symfony-bundle",
   "description": "The Symfony2 bundle for Pomm2",
   "keywords": ["orm", "postgresql", "database", "symfony", "pomm"],
@@ -25,7 +25,8 @@
   },
   "require-dev": {
     "symfony/console": "^3.4|^4.3|^5.0",
-    "squizlabs/php_codesniffer": "~2.7"
+    "squizlabs/php_codesniffer": "~2.7",
+    "twig/twig": "^3.3"
   },
   "suggest": {
       "symfony/web-profiler-bundle": "Display queries log",
